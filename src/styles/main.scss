@@ -1,0 +1,18 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  footer {
+    margin-top: auto;
+  }
+}
+
+.general-card-list {
+  margin: 40px auto;
+  display: grid;
+  row-gap: 20px;
+}
