@@ -7,7 +7,7 @@ const plugins = [
     template: path.join(__dirname, "public", "index.html"),
   }),
   new MiniCssExtractPlugin({
-    filename: '[name].[contenthash].css', // Формат имени файла
+    filename: 'main.css',
   }),
 ];
 
