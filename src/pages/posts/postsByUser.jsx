@@ -14,8 +14,6 @@ const PostsByUser = () => {
   if(isLoading) return <LoadingComponent />
   if(isError) return <div>Error...</div>
 
-  console.log("data", data)
-
   return (
     <GeneralCardList>
       {data?.map(elem => {
