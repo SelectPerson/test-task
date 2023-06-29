@@ -1,9 +1,9 @@
 {
+  "homepage": "https://selectperson.github.io/test-task",
   "name": "test-task",
   "version": "1.0.0",
   "description": "Test",
   "main": "index.js",
-  "homepage": "https://selectperson.github.io/test-task",
   "private": "true",
   "scripts": {
     "build": "webpack --mode production",
